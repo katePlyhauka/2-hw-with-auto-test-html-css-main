@@ -125,7 +125,8 @@ select {
 }
 
 table {
-    border-collapse: collapse;/* Стили для таблицы */
+    border-collapse: collapse;
+    font-size: 14px;/* Стили для таблицы */
 }
 
 th, td {
@@ -133,7 +134,7 @@ th, td {
     padding: 12px 15px;
     text-align: left; 
     font-weight: 400;
-    font-size: 14px;/* Стили для ячеек таблицы */
+    /* Стили для ячеек таблицы */
 }
 
 footer {
