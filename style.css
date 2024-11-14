@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* Свойства для сброса начальных стилей элементов */
+}
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    color: #303030; 
+}
+
+header {
+    background-color: #2965f1;
+    padding-top: 23px;
+    padding-bottom: 23px;/* Стили для хедера */
+}
+
+header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;/* Стили для текста в хедере IT-INCUBATOR */
+}
+
+.main-section {
+    background-color: #fafaff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    min-height: 100vh;/* Стили для первой секции */
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+    
+    margin-bottom: 20px;/* Стили для заголовка в первой секции */
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 18px;
+    /* Стили для текста в первой секции */
+}
+
+.main-image {
+    max-width: 715px;/* Стили для изображения в первой секции */
+}
+
+
+.about-section {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;/* Стили для второй секции */
+}
+
+select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+    background: url(./assets/images/ep_arrow-down.svg) no-repeat right 10px top 50%;
+    appearance: none;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 12px;/* Стили для выпадающего списка */
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 24px;
+    
+    margin-bottom: 25px;/* Стили для заголовков во второй секции */
+}
+
+.frameworks-list {
+    list-style-image: url(./assets/images/Vector.png);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    /* Стили для маркированного списка во второй секции */
+}
+
+.books-list {
+    font-weight: 400;
+    font-size: 16px;
+    
+    padding-left: 20px;/* Стили для нумерованного списка во второй секции */
+}
+
+.label {
+    font-weight: 400;
+    font-size: 16px;
+    /* Стили для подписей чекбоксов */
+}
+
+.text-field {
+    width: 330px;
+    height: 36px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    ;/* Стили для односточного поля ввода текста */
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    border: none;/* Стили для кнопки */
+}
+
+.line {
+    margin-top: 60px;
+    margin-bottom: 60px;/* Стили для линии */
+}
+
+table {
+    border-collapse: collapse;/* Стили для таблицы */
+}
+
+th, td {
+    border: 1px solid #95a1bb;
+    padding-top: 12px;
+    padding-bottom: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: left; /* Стили для ячеек таблицы */
+}
+
+footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 26px 0;/* Стили для футера */
+}
+
+.footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;/* Стили для футера */
+}
